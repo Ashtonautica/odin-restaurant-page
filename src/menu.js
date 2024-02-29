@@ -1,8 +1,6 @@
 import menuPizza from './menupizza.jpg';
 
-export default () => {
-    const contentDiv = document.querySelector('#content');
-
+export default (contentDiv) => {
     const image = document.createElement('img');
     image.src = menuPizza;
     contentDiv.appendChild(image);

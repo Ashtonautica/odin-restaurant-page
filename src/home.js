@@ -1,8 +1,6 @@
 import pizzaTime from './pizzatime.jpg';
 
-export default () => {
-    const contentDiv = document.querySelector('#content');
-
+export default (contentDiv) => {
     const header = document.createElement('h1');
     header.innerHTML = "Joe's Pizza";
     contentDiv.appendChild(header);
